@@ -61,6 +61,8 @@ basicCC <- ggplot(dd3,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+The white branch and the other branch are similar when it comes to capital punishment, because they support it. The black branch does not support capital punishment. When you put the blue branch on each red branch for black, white, and other, it adds up to 100.
+
 ## Now with The Most data (fewer variables gives more data points)
 
 
